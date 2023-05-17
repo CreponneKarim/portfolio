@@ -1,24 +1,28 @@
-import React from 'react'
-// import virili from "../assets/portfolio/virili.jpg";
-// import winrahi4G from "../assets/portfolio/winrahi4G.jpg";
-// import winrahiSMS from "../assets/portfolio/winrahiSMS.jpg";
-// import arduino from "../assets/portfolio/arduino.jpg";
+import React from 'react';
+import winRahi4G from "../assets/portfolio/winrahi4G.png";
+import winRahi1 from "../assets/portfolio/winRahi1.png";
+import virili from "../assets/portfolio/virili.png";
 
-import navbar from "../assets/html.png";
 
 const Portfolio = () => {
     const links = [
         {
             id:1,
-            src: navbar//winrahi4G
+            src: winRahi4G,
+            name: "WinRahi 4G",
+            href: "https://github.com/CreponneKarim/winrahi4g"
         },
         {
             id: 2,
-            src: navbar//arduino
+            src: virili,
+            name: "Virili",
+            href: "https://github.com/CreponneKarim/Virili.git"
         },
         {
             id: 3,
-            src: navbar//winrahiSMS
+            src: winRahi1,
+            name: "WinRahi SMS",
+            href: "https://github.com/m0kr4n3/projet2cp"
         },
         // {
         //     id: 4,
@@ -42,7 +46,9 @@ const Portfolio = () => {
                 {links.map(({id,src})=>{
                     return (
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg hover:scale-105 duration-200 group' >
-                        <img src={navbar} alt="navbar" className='rounded-md group-hover:scale-105 duration-200 h-32 m-auto' />
+                            <div className='h-32'>
+                                <img src={src} alt="navbar" className='rounded-md group-hover:scale-105 duration-200 object-cover h-32 m-auto' />
+                        </div>
                         <div className='flex items-center justify-center '>
                             <button className='px-6 py-3 m-4 hover:scale-105 duration-200'>
                                 Git repository
