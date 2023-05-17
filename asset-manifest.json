@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.989bc973.css",
-    "main.js": "/portfolio/static/js/main.098ea2b1.js",
+    "main.css": "/portfolio/static/css/main.e58bf0a0.css",
+    "main.js": "/portfolio/static/js/main.85cfc5d3.js",
     "static/media/heroImage.jpg": "/portfolio/static/media/heroImage.8111a5a741c34aa81d3c.jpg",
     "static/media/kotlin.png": "/portfolio/static/media/kotlin.0e22a842339118ef9a10.png",
     "static/media/android.png": "/portfolio/static/media/android.62aabe7e4cf2fb6c531e.png",
     "static/media/compose.png": "/portfolio/static/media/compose.3ef8d1755096bbc66c60.png",
     "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/virili.png": "/portfolio/static/media/virili.59998c4a04906b6f7b29.png",
+    "static/media/winRahi1.png": "/portfolio/static/media/winRahi1.4b9a8eb064f4a0700123.png",
     "static/media/html.png": "/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/css.png": "/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
-    "main.989bc973.css.map": "/portfolio/static/css/main.989bc973.css.map",
-    "main.098ea2b1.js.map": "/portfolio/static/js/main.098ea2b1.js.map"
+    "main.e58bf0a0.css.map": "/portfolio/static/css/main.e58bf0a0.css.map",
+    "main.85cfc5d3.js.map": "/portfolio/static/js/main.85cfc5d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.989bc973.css",
-    "static/js/main.098ea2b1.js"
+    "static/css/main.e58bf0a0.css",
+    "static/js/main.85cfc5d3.js"
   ]
 }
